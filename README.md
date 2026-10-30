@@ -82,3 +82,20 @@ Our QA strategy spans multiple testing methodologies to ensure functional reliab
 ```bash
 git clone [https://github.com/](https://github.com/)<your-username>/HMS-Software-Testing-Suite.git
 cd HMS-Software-Testing-Suite
+```
+
+### 2. Execute UI Automation Suite (Selenium + Cucumber BDD)
+```bash
+mvn clean test
+```
+
+### 3. Execute API Tests via Newman CLI
+```bash
+newman run collections/HMS_API_Collection.json -e environments/HMS_Local_Env.json -r cli,html
+```
+## 📄 Documentation & Reports
+All official test deliverables, including the finalized Integrated Test Plan (PDF), Jira bug export logs, JMeter execution graphs, and Newman HTML execution reports, are stored under the /docs directory.
+
+<FollowUp>
+Would you also like me to generate the full directory tree structure (folder layout) to add right under that documentation section?
+</FollowUp>
