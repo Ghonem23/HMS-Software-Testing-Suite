@@ -12,10 +12,10 @@ The target system under test (SUT) is a full-stack hospital management web appli
 ---
 
 ## 🏗 System Architecture Under Test
-* **Frontend:** React + Vite (served via NGINX in Docker)
-* **Backend:** Java 17, Spring Boot 3 (Web, Data JPA, Spring Security + JWT)
-* **Database:** PostgreSQL 16
-* **External Integrations:** Google OAuth 2.0, WhatsApp Notification Outbox Worker
+- **Frontend:** React + Vite (served via NGINX in Docker)
+- **Backend:** Java 17, Spring Boot 3 (Web, Data JPA, Spring Security + JWT)
+- **Database:** PostgreSQL 16
+- **External Integrations:** Google OAuth 2.0, WhatsApp Notification Outbox Worker
 
 ---
 
@@ -61,26 +61,26 @@ Our QA strategy spans multiple testing methodologies to ensure functional reliab
 
 ## 👥 QA Team & Roles (DEPI Project)
 
-* **Ahmed Hussein** — Team Leader / Senior QA Specialist *(Schedule, Strategy, Automation Architecture, Integration)*
-* **Shaza Rabee** — QA Engineer / Business Analyst *(Product Analysis, Scope Definition, Manual Test Suite Design)*
-* **Esraa Fathy** — QA Engineer / Test Strategist *(SMART Objectives, Quality Metrics, Entry/Exit Criteria)*
-* **Alaa Shehata** — QA Engineer / Infrastructure Lead *(Test Environment Setup, DB Configuration, CI/CD Integration)*
-* **Madeha Mahmoud** — QA Engineer / Deliverables Lead *(Test Deliverables Tracking, RACI Matrix, Status Reporting)*
-* **Toqa Adel** — QA Engineer / Risk Analyst *(Risk Management, Bottlenecks, Contingency Planning)*
+- **Ahmed Hussein** — Team Leader / Senior QA Specialist *(Schedule, Strategy, Automation Architecture, Integration)*
+- **Shaza Rabee** — QA Engineer / Business Analyst *(Product Analysis, Scope Definition, Manual Test Suite Design)*
+- **Esraa Fathy** — QA Engineer / Test Strategist *(SMART Objectives, Quality Metrics, Entry/Exit Criteria)*
+- **Alaa Shehata** — QA Engineer / Infrastructure Lead *(Test Environment Setup, DB Configuration, CI/CD Integration)*
+- **Madeha Mahmoud** — QA Engineer / Deliverables Lead *(Test Deliverables Tracking, RACI Matrix, Status Reporting)*
+- **Toqa Adel** — QA Engineer / Risk Analyst *(Risk Management, Bottlenecks, Contingency Planning)*
 
 ---
 
 ## 🚀 Running Tests Locally
 
 ### Prerequisites
-* Java 17 (JDK) & Apache Maven installed
-* Node.js & npm
-* Docker Desktop (for backend/frontend/PostgreSQL stack)
-* Apache JMeter & Postman / Newman CLI
+- Java 17 (JDK) & Apache Maven installed
+- Node.js & npm
+- Docker Desktop (for backend/frontend/PostgreSQL stack)
+- Apache JMeter & Postman / Newman CLI
 
 ### 1. Clone the Repository
 ```bash
-git clone [https://github.com/](https://github.com/)<your-username>/HMS-Software-Testing-Suite.git
+git clone [https://github.com/Ghonem23/HMS-Software-Testing-Suite.git](https://github.com/Ghonem23/HMS-Software-Testing-Suite.git)
 cd HMS-Software-Testing-Suite
 ```
 
